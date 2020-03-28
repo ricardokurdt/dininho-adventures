@@ -1,0 +1,54 @@
+.header-dino {
+    background: url('../../../img/floor.png') bottom center/contain repeat no-repeat,
+                url('../../../img/mountain1.png') bottom center/contain no-repeat,
+                url('../../../img/mountain2.png') bottom center/contain no-repeat,
+                url('../../../img/sky.png') top center/contain no-repeat var(--color-sky);               
+    min-height: 272px;
+    height:42%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.header-dino > .logo {
+    min-width: 230px;
+    max-width: 500px; 
+    position: absolute;
+    top: var(--gap-medium);
+    width: 70%;
+}
+
+.header-dino > .dininho {
+    position: absolute;
+    top: calc(var(--gap-big) + 120px);
+    width: 30px;
+}
+
+@media (min-width: 1280px) {
+    .header-dino {
+        background: url('../../../img/floor.png') bottom center/1280px auto repeat no-repeat,
+                    url('../../../img/mountain1.png') bottom center/contain no-repeat,
+                    url('../../../img/mountain2.png') bottom center/contain no-repeat,
+                    url('../../../img/sky.png') top center/contain no-repeat var(--color-sky);
+    }
+}
+
+@media (min-width: 550px) {
+    .header-dino {
+        background: url('../../../img/floor.png') bottom center/1280px auto repeat no-repeat,
+                    url('../../../img/mountain1.png') bottom center/contain no-repeat,
+                    url('../../../img/mountain2.png') bottom center/contain no-repeat,
+                    url('../../../img/sky.png') top center/contain no-repeat var(--color-sky);
+        height: 480px;
+    }
+}
+
+@media (min-width: 700px) {
+    .header-dino {
+        background: url('../../../img/floor.png') bottom center/1280px auto repeat no-repeat,
+                    url('../../../img/mountain1.png') bottom center/contain no-repeat,
+                    url('../../../img/mountain2.png') bottom center/contain no-repeat,
+                    url('../../../img/sky.png') top center/contain no-repeat var(--color-sky);
+        height: 700px;
+    }
+}

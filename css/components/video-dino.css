@@ -7,20 +7,21 @@
 }
 
 .video-dino {
-    width: 100%;
+    width: 80%;
 }
 
 .wrapper-video-dino::before{
     content: '';
     position: absolute;
-    width: 100%;
+    width: 80%;
     height: 100%;
     background-color: var(--color-second-light);
-    transition: transform 250ms linear;    
+    background-position: center;
+    transition: transform 250ms linear;
 }
 
 .wrapper-video-dino.-play::before{
-    transform: translateX(-100%);
+    transform: translateX(-120%);
      
 }
 .wrapper-video-dino > .play{

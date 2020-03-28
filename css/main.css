@@ -15,9 +15,11 @@
 @import './components/social-media.css';
 @import './components/video-dino.css';
 @import './components/button-dino.css';
+@import './components/requisitos-dino.css';
 
 @import './settings/containers/section-dino.css';
 @import './settings/containers/footer-dino.css';
 @import './settings/containers/wrapper-social.css';
+@import './settings/containers/header-dino.css';
 
 
