@@ -16,7 +16,7 @@
     width: 100%;
     height: 100%;
     background-color: var(--color-second-light);
-    transition: transform 300ms linear;    
+    transition: transform 250ms linear;    
 }
 
 .wrapper-video-dino.-play::before{
