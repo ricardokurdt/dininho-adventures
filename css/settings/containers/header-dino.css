@@ -30,12 +30,12 @@
                     url('../../../img/mountain1.png') bottom center/contain no-repeat,
                     url('../../../img/mountain2.png') bottom center/contain no-repeat,
                     url('../../../img/sky.png') top center/contain no-repeat var(--color-sky);
-    }
+    };
 }
 
 @media (min-width: 550px) {
     .header-dino {
-        background: url('../../../img/floor.png') bottom center/1280px auto repeat no-repeat,
+        background: url('../../../img/floor.png') bottom center/850px auto repeat no-repeat,
                     url('../../../img/mountain1.png') bottom center/contain no-repeat,
                     url('../../../img/mountain2.png') bottom center/contain no-repeat,
                     url('../../../img/sky.png') top center/contain no-repeat var(--color-sky);
@@ -45,10 +45,16 @@
 
 @media (min-width: 700px) {
     .header-dino {
-        background: url('../../../img/floor.png') bottom center/1280px auto repeat no-repeat,
+        background: url('../../../img/floor.png') bottom center/1000px auto repeat no-repeat,
                     url('../../../img/mountain1.png') bottom center/contain no-repeat,
                     url('../../../img/mountain2.png') bottom center/contain no-repeat,
                     url('../../../img/sky.png') top center/contain no-repeat var(--color-sky);
-        height: 700px;
+        height: 650px;
+    }
+
+    .header-dino > .dininho {
+        position: absolute;
+        top: calc(var(--gap-big) + 300px);
+        width: 40px;
     }
 }
